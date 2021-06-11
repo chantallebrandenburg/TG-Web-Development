@@ -556,35 +556,19 @@
 // }
   
 // }
+
+///// De Reeks van Fibonacci ////////
 // function ThisFunction() {
 
-//     const number = 15
-// let n1 = 0, n2 = 1, nextTerm;
-
-// console.log('Fibonacci Series:');
-//       for (let i = 1; i <= number; i++) { 
-//       console.log(n1); 
-//       nextTerm = n1 + n2; 
-//       n1 = n2; 
-//       n2 = nextTerm; 
-//       } 
-//      function bblSort(arr){
-   
-//       for(let i = 0; i
-//       < arr.length; i++){ 
-     
-//       for(let j = 0; j
-//       < ( arr.length - i -1 ); j++){ 
+//     let arr = [0, 1]
     
-//       if(arr[j] > arr[j+1]){ 
-     
-//       let temp = arr[j] 
-//       arr[j] = arr[j + 1] 
-//       arr[j+1] = temp 
-//       } 
-//       } 
-//       } 
+
+//     for (i = 0; i <= 50; i++ ){
+//         numbers = arr[i] + arr[i + 1];
+//         arr.push(numbers);
 //     }
+
+//     console.log(arr);
 // }
 
 // function ThisFunction() {
@@ -621,7 +605,7 @@
 //         for(i = 0; i < arraylength; i++){
 
 //             for(j = 0; j < arraylength; j++){
-
+               
 //                 if(arr[j] > arr[j + 1]){
                     
 //                     let swap = arr[j];
@@ -635,3 +619,277 @@
 // }
 
 
+// function ThisFunction(){
+
+//     let arr = ["voetbal",'hockey','schaatsen']
+//     arr.push("zeilen", "zwemmen");
+//     arr.splice( 0, 0, "volleybal");
+//     arr.splice( 1, 1,);
+//     arr.splice( 0, 1,);
+//     arr.sort();
+
+//     let arrayBallsports = ["volleybal", "voetbal"]
+//     console.log(arr);
+//     console.log(arr);
+//     console.log(arrayBallsports);
+
+//     let SportsLength = [
+//     arr[0].length,
+//     arr[1].length,
+//     arr[2].length,
+//     arr[3].length,
+//     ]
+
+//     console.log(SportsLength)
+
+// }
+
+
+// function ThisFunction(){ 
+
+//     //array from
+//     var myArr = Array.from([
+//         "HALLO",
+//         "IK",
+//         "BEN",
+//         "CHANTALLE"]);
+//     console.log(myArr)
+
+//     //filter
+//     const result = myArr.filter(myArr => myArr.length > 3);
+//     console.log(result);
+
+//     //find
+//       const result2 = myArr.find(myArr => myArr.startsWith("C"));
+//       console.log(result2);
+
+//     //some
+//         const some = myArr.some(myArr => myArr === "CHANTALLE");
+//         console.log(some);
+
+//     // every()
+
+//         const array1 = [1, 30, 39, 29, 10, 13];
+//         const isBelowThreshold = (currentValue) => currentValue < 40;
+        
+//         console.log(array1.every(isBelowThreshold));
+
+//     //includes()
+//     console.log(myArr.includes('BEN'));
+// }
+
+
+////////////////////////////////////////////-DEZE DOET HET NIET!
+// let Doutzen = new object();
+
+// objectPaard.naam =  "Doutzen"
+// objectPaard.leeftijd =  "5"
+// objectPaard.ras =   "Fries"
+// objectPaard.kleur = "Zwart"
+
+// console.log(Doutzen)
+
+//////////////////////////////////////////////////////////////////
+// let Odie = {
+//     naam:   "Odie",
+//     leeftijd: "8",
+//     ras: "Rottweiler x Friese stabij",   
+//     kleur: "Bruin" 
+// }
+
+// console.log(Odie)
+
+// ////////////////////////////////////////////////////-DEZE DOET HET NIET//////////////
+// Function Armani(naam, leeftijd, ras, kleur) {
+//     this.naam = naam
+//     this.leeftijd = leeftijd
+//     this.ras = ras
+//     this.kleur = kleur
+// }
+
+// let Armani = new Armani("Armani", "3", "Blauw rus", "Blauw")
+
+// console.log(Armani)
+
+// ///////////////////////////////////////////////////////////////////////
+// let Rainbow = new function() {
+//     this.name = "Rainbow"
+//     this.age = "7"
+//     this.ras = "Europese Korthaar"
+//     this.kleur = "Bruin"
+// }
+
+// console.log(Rainbow)
+
+////////////////////////////////////////////////////////////////////////////
+// class lio{
+//     constructor(naam, leeftijd, ras, kleur){
+//         this.name = "Lio"
+//         this.age = "5 Maanden"
+//         this.ras = "Pomeriaan x Chihuahua"
+//         this.kleur = "Bruin / Wit"
+//     }
+//     WriteBadCode(){
+//         console.log("Foutje kan iedereen gebeuren")
+//     }
+// }    console.log(lio)
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+// // let classConstructed = new cat("Brownie", "5", "Europese Korthaar x Britse Korthaar")//// Deze ook niet
+// // console.log(classConstructed)
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// let Doutzen = {
+//     naam: "Doutzen",
+//     leeftijd:  5,
+//     ras:   "Fries",
+//     kleur: "Zwart"
+//   };
+
+//   let Odie = {
+//     naam:   "Odie",
+//     leeftijd: "8",
+//     ras: "Rottweiler x Friese stabij",   
+//     kleur: "Bruin" 
+//   };
+
+//   let Armani = {
+//     naam:  "Armani",
+//     leeftijd: 3,
+//     ras:   "Blauw Rus",
+//     kleur: "Blauw"
+//   };
+
+//   let Rainbow = {
+//     naam: "Rainbow",
+//     leeftijd: "7",
+//     ras: "Europese Korthaar",
+//     kleur: "Bruin"
+//   };
+
+//   let Lio = {
+//     name: "Lio",
+//     age: "5 Maanden",
+//     ras: "Pomeriaan x Chihuahua",
+//     kleur: "Bruin / Wit"
+//   };
+
+//  console.log(Doutzen, Odie, Armani, Rainbow, Lio);
+
+// let Persons = [
+//     {
+//         "naam": "Chantalle",
+//         "leeftijd": "23"
+//     },
+//     {
+//         "naam": "Matthew",
+//         "leeftijd": "22"
+//     },
+//     {
+//         "naam": "Melissa",
+//         "leeftijd": "26"
+//     },
+//     {
+//         "naam": "Nathalie",
+//         "leeftijd": "29"
+//     },
+//     {
+//         "naam": "Pieter",
+//         "leeftijd": "59"
+//     },
+//     {
+//         "naam": "Marloes",
+//         "leeftijd": "50"
+//     },
+//     {
+//         "naam": "Mandy",
+//         "leeftijd": "26"
+//     },
+//     {
+//         "naam": "Petra",
+//         "leeftijd": "57"
+//     },
+//     {
+//         "naam": "britt",
+//         "leeftijd": "28"
+//     },
+//     {
+//         "naam": "Rosan",
+//         "leeftijd": "30"
+//     }
+
+// ]
+
+// Persons.sort(function(a, b) {
+//     return a.leeftijd - b.leeftijd
+// })
+
+// console.log(Persons)
+
+
+let Clubs = [
+    {
+        "naam": "Ajax",
+        "type club": "Voetbal club",
+        "aantal leden": 13,
+        contactInformatie:    {
+            "adres": "Amsterdam",
+            "telefoonnummer": "020 12345678",
+            "contactpersoon": "ams",
+        },
+    },
+    {
+        "naam": "Feyenoord",
+        "type club": "Voetbal club",
+        "aantal leden": 13,
+        contactInformatie:    {
+            "adres": "Rotterdam",
+            "telefoonnummer": "030 12345678",
+            "contactpersoon": "rott",
+        },
+    },
+    {
+        "naam": "FC Utrecht",
+        "type club": "Voetbal club",
+        "aantal leden": 13,
+        contactInformatie:     {
+            "adres": "Utrecht",
+            "telefoonnummer": "010 12345678",
+            "contactpersoon": "utr",
+        },
+    },
+    {
+        "naam": "AZ",
+        "type club": "Voetbal club",
+        "aantal leden": 13,
+        contactInformatie:    {
+            "adres": "Alkmaar",
+            "telefoonnummer": "090 12345678",
+            "contactpersoon": "alk",
+        },
+    },
+    {
+        "naam": "FC Almere",
+        "type club": "Voetbal club",
+        "aantal leden": 13,
+        contactInformatie:   {
+            "adres": "Almere",
+            "telefoonnummer": "036 12345678",
+            "contactpersoon": "alm",
+        }
+    }
+]
+
+for (let i = 0; i < Clubs.length; i++) {
+    const naam = Clubs[i].naam;
+    const telefoonnummer = Clubs[i].contactInformatie.telefoonnummer
+    const contactpersoon = Clubs[i].contactInformatie.contactpersoon
+
+    console.log(naam)
+    console.log(telefoonnummer)
+    console.log(contactpersoon)
+
+};
+
+  
