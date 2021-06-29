@@ -1,0 +1,97 @@
+body {
+	font-family: 'Indie Flower', cursive;
+	background-color: rgb(180, 180, 180);
+}
+
+.stopwatch {
+	position: relative;
+	height: 21em;
+	width: 21em;
+	background-color: rgb(70, 26, 48);
+	border-radius: 100%;
+	border: 8px solid rgb(255, 255, 255);
+	margin: 40px;
+}
+
+.chantalle {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	top: 2%;
+}
+
+.chantalle h1 {
+	font-weight: 200;
+}
+
+
+/* Display*/
+
+.display {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	top: 40%;
+	left: 50%;
+	height: 1em;
+	width: 5em;
+	transform: translate(-50%, -50%);
+	font-size: 85px;
+	color: rgb(255, 255, 255);
+}
+
+
+/* Buttons*/
+
+.buttons {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	height: 5em;
+	width: 15em;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.buttons button {
+	height: 3.8em;
+	width: 3.8em;
+	line-height: 1em;
+	text-align: center;
+	margin: 0.4em;
+	border-radius: 100%;
+	border: 1.5px solid rgba(68, 68, 68, 0.699);
+	font-weight: 300;
+	color: rgb(24, 24, 24);
+	font-size: 17px;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+}
+
+.start {
+	background-color: rgb(93, 187, 93);
+	padding-left: 1px;
+}
+
+.start:hover {
+	background-color: rgba(88, 151, 88, 0.6);
+}
+
+.pause {
+	background-color: rgb(235, 180, 79);
+	padding-left: 1px;
+}
+
+.pause:hover {
+	background-color: rgb(223, 167, 65, 0.6);
+}
+
+.stop {
+	background-color: rgb(221, 68, 88);
+}
+
+.stop:hover {
+	background-color: rgb(221, 68, 68, 0.6);
+}
